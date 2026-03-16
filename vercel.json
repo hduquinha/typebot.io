@@ -1,5 +1,7 @@
 {
-  "root": "apps/builder",
+  "builds": [
+    { "src": "apps/builder/package.json", "use": "@vercel/next" }
+  ],
   "build": {
     "env": {
       "SKIP_ENV_CHECK": "1"
