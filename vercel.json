@@ -7,7 +7,11 @@
   "buildCommand": "bunx turbo run build --filter=builder...",
   "build": {
     "env": {
-      "SKIP_ENV_CHECK": "1"
+      "SKIP_ENV_CHECK": "1",
+      "DATABASE_URL": "postgres://USER:PASS@HOST:5432/dbname",
+      "ENCRYPTION_SECRET": "placeholder_encryption_secret",
+      "NEXTAUTH_URL": "https://example.com",
+      "NEXT_PUBLIC_VIEWER_URL": "https://example.com/viewer"
     }
   }
 }
