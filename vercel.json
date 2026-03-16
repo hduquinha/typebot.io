@@ -4,7 +4,7 @@
   ],
   "outputDirectory": "apps/builder/.next",
   "installCommand": "bun install",
-  "buildCommand": "bunx turbo run build --filter=apps/builder...",
+  "buildCommand": "bunx turbo run build --filter=builder...",
   "build": {
     "env": {
       "SKIP_ENV_CHECK": "1"
