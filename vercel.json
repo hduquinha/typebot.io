@@ -3,6 +3,8 @@
     { "src": "apps/builder/package.json", "use": "@vercel/next" }
   ],
   "outputDirectory": "apps/builder/.next",
+  "installCommand": "bun install",
+  "buildCommand": "cd apps/builder && dotenv -e ./.env -e ../../.env -- bun run build",
   "build": {
     "env": {
       "SKIP_ENV_CHECK": "1"
