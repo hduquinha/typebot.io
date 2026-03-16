@@ -1,0 +1,8 @@
+{
+  "root": "apps/builder",
+  "build": {
+    "env": {
+      "SKIP_ENV_CHECK": "1"
+    }
+  }
+}
